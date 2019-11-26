@@ -3,5 +3,20 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (min-width: 767px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 /*# sourceMappingURL=style.css.map */
